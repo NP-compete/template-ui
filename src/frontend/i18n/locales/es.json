@@ -177,7 +177,9 @@
     "loading": "Cargando el chat",
     "aiGeneratedMarker": "Generado por IA",
     "loadingMessages": "Cargando los mensajes…",
-    "loadingChat": "Cargando el chat…"
+    "loadingChat": "Cargando el chat…",
+    "noResponse": "El agente no respondió. Puede ser un problema temporal.",
+    "agentError": "El agente encontró un error:"
   },
   "skills": {
     "title": "Habilidades",

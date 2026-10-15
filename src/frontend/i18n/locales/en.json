@@ -177,7 +177,9 @@
     "loading": "Loading chat",
     "aiGeneratedMarker": "AI-generated",
     "loadingMessages": "Loading messages…",
-    "loadingChat": "Loading chat…"
+    "loadingChat": "Loading chat…",
+    "noResponse": "The agent didn't respond. This could be a temporary issue.",
+    "agentError": "The agent encountered an error:"
   },
   "skills": {
     "title": "Skills",

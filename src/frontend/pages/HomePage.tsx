@@ -65,8 +65,19 @@ export function HomePage() {
               </h2>
             )}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5" role="list" aria-label="Quick prompt suggestions">
-              {content.quick_prompts.map((prompt) => (
-                <div key={prompt} role="listitem">
+              {content.quick_prompts.map((prompt, index) => {
+                // An odd count leaves a lone tile hugging the left of
+                // a two-column grid. Upstream's fix: span both and
+                // centre at half width.
+                const isLastOfOddCount =
+                  content.quick_prompts.length % 2 === 1 &&
+                  index === content.quick_prompts.length - 1;
+                return (
+                <div
+                  key={prompt}
+                  role="listitem"
+                  className={isLastOfOddCount ? 'sm:col-span-2 sm:flex sm:justify-center' : undefined}
+                >
                   {/* PatternFly Card: its clickable variant brings a
                       real hover and focus treatment. The hand-rolled
                       version was bg-card on bg-background — two greys
@@ -74,7 +85,9 @@ export function HomePage() {
                   <Card
                     isClickable
                     isCompact
-                    className="h-full text-left prompt-tile"
+                    className={`h-full text-left prompt-tile ${
+                      isLastOfOddCount ? 'sm:w-[calc(50%-0.3125rem)]' : ''
+                    }`}
                     component="div"
                   >
                     <CardBody>
@@ -89,7 +102,8 @@ export function HomePage() {
                     </CardBody>
                   </Card>
                 </div>
-              ))}
+                );
+              })}
             </div>
           </div>
           )}

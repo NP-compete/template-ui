@@ -177,7 +177,9 @@
     "loading": "Chargement de la conversation",
     "aiGeneratedMarker": "Généré par IA",
     "loadingMessages": "Chargement des messages…",
-    "loadingChat": "Chargement de la conversation…"
+    "loadingChat": "Chargement de la conversation…",
+    "noResponse": "L'agent n'a pas répondu. Le problème est peut-être temporaire.",
+    "agentError": "L'agent a rencontré une erreur :"
   },
   "skills": {
     "title": "Compétences",

@@ -1,5 +1,6 @@
 branding:
   title: "Workpilot"
+  version: "v1.0.0"
   logo_url: "https://cdn.prod.website-files.com/6447ad3a38d5f03bc4e0a3b2/69e9fcfe18543c02af4fde56_WorkPilot.jpg"
   favicon_url: "https://cdn.prod.website-files.com/6447ad3a38d5f03bc4e0a3b2/69e9fcfe18543c02af4fde56_WorkPilot.jpg"
   colors:
@@ -41,6 +42,12 @@ agent:
   endpoint: ""
   timeout_ms: 30000
   streaming: true
+
+quick_prompts:
+  - What can Agent do for me?
+  - Help me analyze a dataset
+  - Write a query to find anomalies
+  - Summarize the key findings from this data
 
 platform:
   opa:

@@ -177,7 +177,9 @@
     "loading": "Inapakia gumzo",
     "aiGeneratedMarker": "Imetengenezwa na AI",
     "loadingMessages": "Inapakia ujumbe…",
-    "loadingChat": "Inapakia gumzo…"
+    "loadingChat": "Inapakia gumzo…",
+    "noResponse": "Wakala hakujibu. Hili linaweza kuwa tatizo la muda.",
+    "agentError": "Wakala amekumbana na hitilafu:"
   },
   "skills": {
     "title": "Ujuzi",

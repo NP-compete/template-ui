@@ -177,7 +177,9 @@
     "loading": "Te uta i te kōrerorero",
     "aiGeneratedMarker": "I hangaia e te AI",
     "loadingMessages": "Te uta i ngā karere…",
-    "loadingChat": "Te uta i te kōrerorero…"
+    "loadingChat": "Te uta i te kōrerorero…",
+    "noResponse": "Kāore te pokapū i whakautu. He raru poto pea tēnei.",
+    "agentError": "I pā he hapa ki te pokapū:"
   },
   "skills": {
     "title": "Ngā Pūkenga",
